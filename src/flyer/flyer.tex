@@ -1,0 +1,102 @@
+\documentclass[paper=a4]{scrartcl}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+%%% Geometry
+\usepackage[left=2cm,
+            right=2cm,
+            top=0.5cm,
+            bottom=1cm,
+            headheight=1cm
+           ]{geometry}
+
+%%% Fonts
+\usepackage{scrextend}
+\changefontsizes{14pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+%%% Figures
+\usepackage{graphicx}
+
+%%% Links
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{pyblue}{HTML}{446785}
+\definecolor{pyyellow}{HTML}{D6AD43}
+\definecolor{darkblue}{HTML}{000080}
+\hypersetup{colorlinks, breaklinks, urlcolor=darkblue}
+
+%%% Fancy items
+\newcommand*{\pyitem}{\item [{\includegraphics[width=0.4cm]{python_logo.png}}]}
+\usepackage{verbatim}
+\begin{document}
+\pagestyle{empty} % No page numbers
+
+\begin{center}
+\begin{minipage}{0.2\linewidth}
+    \includegraphics[width=\linewidth]{python_logo.png}
+    \vspace{0.5cm}
+\end{minipage}
+
+\huge \textbf{Introduction to Python in \\ Environmental Sciences \\ 2021}
+
+\end{center}
+
+\begin{itemize}
+\pyitem The 5 half-day workshop will give a hands-on introduction to Python --- modern open-source programming language with large community support.
+\pyitem No previous Python experience is required!
+\pyitem Set up a second monitor if possible
+\pyitem More info: \url{https://ueapy.github.io/pythoncourse2021}
+\end{itemize}
+
+
+\subsection*{Schedule}
+\begin{center}
+\begin{tabular}{llll}
+Fri & 4 Jun  & 14:00--15:00 & \textit {Installation party}\\
+Mon & 7 Jun  & 9:00--13:00 & Python basics and core data types\\
+    &        & 14:00--15:00 & Guided practice \\
+Tue & 8 Jun  & 9:00--13:00 & Control flow and programming environment \\
+    &        & 14:00--15:00 & Guided practive \\
+Wed & 9 Jul  & 9:00--13:00 & Arrays and intro to plotting\\
+    &        & 14:00--15:00 & Guided practive \\
+Thu & 10 Jul & 9:00--13:00 & Further plotting and maps \\
+Fri & 11 Jul & 9:00--13:00 & netCDF libraries\\
+Mon & 11 Jul & 14:00--15:00 & Bring your own data project and open questions\\
+
+\end{tabular}
+\end{center}
+
+\subsection*{Costs}
+\begin{itemize}
+\pyitem Cefas staff and students: \textbf{free}
+\pyitem Aries DTP students: \textbf{free}
+\pyitem UEA ENV students: ?
+\pyitem Other participants: \pounds 35
+\end{itemize}
+\vspace{-0.5cm}
+
+\subsection*{Registration and enquiries}
+If you have queries please contact:
+\begin{itemize}
+\pyitem Beth for Aries or UEA applicants (e.siddle@uea.ac.uk), or
+\pyitem Jenny for Cefas (jennifer.graham@cefas.co.uk)
+\end{itemize}
+% Places are limited to \textbf{40}, and priority will be given to Aries DTP students and Cefas.
+
+\begin{center}
+\begin{minipage}{0.2\linewidth}
+    \includegraphics[width=\linewidth]{uealogo_horizontal.eps}
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}{0.2\linewidth}
+    \includegraphics[width=\linewidth]{aries_logo.png}
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}{0.2\linewidth}
+    \includegraphics[width=\linewidth]{cefas_logo.pdf}
+\end{minipage}
+\end{center}
+
+\end{document}
