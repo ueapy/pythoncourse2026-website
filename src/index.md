@@ -12,7 +12,7 @@ Delivered by [*ARIES Doctoral Training Programme*](https://www.aries-dtp.ac.uk) 
 
 
 * The 3-day course organised by [ARIES DTP](https://www.aries-dtp.ac.uk/) and [Cefas](https://www.cefas.co.uk/) giving a hands-on introduction to [Python](http://www.python.org/) programming language.
-* You will learn Python programming, starting from the basics, and evolving into data analysis and visualisation using data formats commonly used in environmental sciences. If you have no programming experience in any language, it is recommended that  you take a 1-2 hour online course, such as [Python Basics on datacamp](https://app.datacamp.com/learn/courses/intro-to-python-for-data-science), to get confortable with basic concepts such as variables. 
+* You will learn Python programming, starting from the basics, and evolving into data analysis and visualisation using data formats commonly used in environmental sciences. If you have no programming experience in any language, it is recommended that  you take a 1-2 hour online course, such as [Python Basics on datacamp](https://app.datacamp.com/learn/courses/intro-to-python-for-data-science), to get confortable with basic concepts such as variables. The use of generative AI to generate and troubleshoot code will also be covered.
 * Suitable for both python novices and intermediate users.
 * In person course at the UEA ([ZICER Building](https://www.uea.ac.uk/about/campus-map), room 2.01). Lunch and refreshments will be provided.
 * The course will be in person only, and held at the University of East anglia. Unfortunately we are no longer able to offer the course online simultaneously.
@@ -32,6 +32,7 @@ Delivered by [*ARIES Doctoral Training Programme*](https://www.aries-dtp.ac.uk) 
 ### Topics covered by the course
 * Python basics and programming environment
 * Core scientific libraries: numpy, scipy, pandas
+* Use of AI to auxiliate in creating code
 * Simple visualisation in matplotlib
 * Plotting data on maps
 * Working with environmental sciences data formats
@@ -52,12 +53,11 @@ The course is free for
 
 The course is open to all UEA staff and students interested in environmental sciences for a fee of 50 GBP. See contact below for enquiries.
 
-[Registeration on Eventbrite](https://www.eventbrite.com/e/1285794900159?aff=oddtdtcreator).
+[Registeration on Eventbrite](https://www.eventbrite.co.uk/e/introduction-to-python-in-environmental-sciences-2026-tickets-1988315006709).
 
 If you have queries please contact:
 
 * [Claire (Cefas)](mailto:claire.beraud@cefas.gov.uk)
-* [Alice (UEA, Aries)](mailto:a.hsu@uea.ac.uk)
 
 
 ## Support after the course? 

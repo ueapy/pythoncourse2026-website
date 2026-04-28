@@ -16,6 +16,6 @@ site_dir: _site
 
 nav:
   - Home: index.md
-  - Programme: programme.md
+#  - Programme: programme.md
   - Content: content.md
   - Installation: installation.md
