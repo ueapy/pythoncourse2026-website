@@ -20,11 +20,11 @@ Feel free to contact [Claire at Cefas](mailto:claire.beraud@cefas.co.uk) or [Eil
 #### Cefas Users
 You will neet to request in advance a temporary administrator password to make the installation. 
 
-As a government organisation we do not have free access to Anaconda, so please use the free alternative mambaforge. For those in academia, we also recommend this as a more lightweight (and often faster) python installation option!  
+As a government organisation we do not have free access to Anaconda, so please use the free alternative miniforge. For those in academia, we also recommend this as a more lightweight (and often faster) python installation option!  
 
-* [Download Mambaforge for your OS](https://github.com/conda-forge/miniforge#mambaforge) 
+* [Download Miniforge for your OS](https://conda-forge.org/download/) 
 
-* After downloading, follow the instructions as suggested [here](https://github.com/conda-forge/miniforge#install)
+* In Windows you just need to execute the installer. For Linux and macOS, follow the instructions as suggested [here](https://github.com/conda-forge/miniforge#install)
 
 #### Students or UEA Staff
 
@@ -74,9 +74,9 @@ Windows-users, double check that it has been cloned in the directory you wanted.
 
 
 ### 1.3. Create the environment
-* Make sure Anaconda or Mambaforge is installed and the course materials are downloaded
+* Make sure Anaconda or miniforge is installed and the course materials are downloaded
 
-* Open the command line or python prompt (i.e., search "Terminal" on Mac Spotlight Seach; search "Anaconda prompt" or "mamba" on Windows start menu)
+* Open the command line or python prompt (i.e., search "Terminal" on Mac Spotlight Seach; search "Anaconda prompt" or "Miniforge prompt" on Windows start menu)
 
 * Navigate to folder containing the cloned / downloaded course materials. Use the `cd` command, for example:
 
@@ -89,7 +89,7 @@ cd C:\Users\myname\Downloads\pythoncourse2026-materials\
 ```bash
 conda env create -f environment.yml
 ```
-or if you installed mamba
+or if you installed miniforge
 ```bash
 mamba env create -f environment.yml
 ```
@@ -108,7 +108,7 @@ conda activate course2026
 python -c "import seaborn"
 ```
 #### Windows
-In the command line (Anaconda/mamba prompt), type the following 2 commands:
+In the command line (Anaconda/miniforge prompt), type the following 2 commands:
 
 ```
 conda activate course2026
@@ -123,7 +123,7 @@ Note: If you installed Anaconda (as opposed to the stripped down miniconda) you 
 
 
 ### Windows
-* Open Anaconda/mamba prompt from your Start menu
+* Open Anaconda/miniforge prompt from your Start menu
 
 * Type
 
