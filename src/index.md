@@ -49,15 +49,16 @@ Delivered by [*ARIES Doctoral Training Programme*](https://www.aries-dtp.ac.uk) 
 The course is free for 
 
 * Aries DTP students
-* Cefas staff and CASE students
+* Cefas staff and Cefas CASE students
 
-The course is open to all UEA staff and students interested in environmental sciences for a fee of 50 GBP. See contact below for enquiries.
+Other postgrad students and might be asked to pay 50 GBP from their grant via the PGT office. See contact below for enquiries.
 
 [Registeration on Eventbrite](https://www.eventbrite.co.uk/e/introduction-to-python-in-environmental-sciences-2026-tickets-1988315006709).
 
 If you have queries please contact:
 
-* [Claire (Cefas)](mailto:claire.beraud@cefas.gov.uk)
+* [Eilean for UEA/ARIES students](mailto:eilean.macdonald@uea.ac.uk)
+* [Claire for Cefas staff/students](mailto:claire.beraud@cefas.gov.uk)
 
 
 ## Support after the course? 

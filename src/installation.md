@@ -13,7 +13,7 @@ It is recommended to have python installed on your laptop. Nevertheless there ar
 ## 1. Laptop Installation
 For this course it is recommneded that you have Python installed on your laptop. Follow the instructions below to set up your Python environment with the required packages used in the lessons. Make sure you do this do this **before** the course, including running the test as below. There will be a troubleshooting session on the first day at 8:30 as advertised in the invite email.
 
-Feel free to contact [Claire at Cefas](mailto:claire.beraud@cefas.co.uk) or [Alice at UEA](mailto:a.hsu@uea.ac.uk) if you have any problems with the installation (but better do an internet search first!)
+Feel free to contact [Claire at Cefas](mailto:claire.beraud@cefas.co.uk) or [Eilean at UEA](mailto:eilean.macdonald@uea.ac.uk) if you have any problems with the installation (but better do an internet search first!)
 
 ### 1.1 Install Python distribution
 
