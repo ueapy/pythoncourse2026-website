@@ -1021,13 +1021,13 @@
 <h3 id="11-install-python-distribution">1.1 Install Python distribution</h3>
 <h4 id="cefas-users">Cefas Users</h4>
 <p>You will neet to request in advance a temporary administrator password to make the installation. </p>
-<p>As a government organisation we do not have free access to Anaconda, so please use the free alternative mambaforge. For those in academia, we also recommend this as a more lightweight (and often faster) python installation option!  </p>
+<p>As a government organisation we do not have free access to Anaconda, so please use the free alternative miniforge. For those in academia, we also recommend this as a more lightweight (and often faster) python installation option!  </p>
 <ul>
 <li>
-<p><a href="https://github.com/conda-forge/miniforge#mambaforge">Download Mambaforge for your OS</a> </p>
+<p><a href="https://conda-forge.org/download/">Download Miniforge for your OS</a> </p>
 </li>
 <li>
-<p>After downloading, follow the instructions as suggested <a href="https://github.com/conda-forge/miniforge#install">here</a></p>
+<p>In Windows you just need to execute the installer. For Linux and macOS, follow the instructions as suggested <a href="https://github.com/conda-forge/miniforge#install">here</a></p>
 </li>
 </ul>
 <h4 id="students-or-uea-staff">Students or UEA Staff</h4>
@@ -1070,10 +1070,10 @@
 <h3 id="13-create-the-environment">1.3. Create the environment</h3>
 <ul>
 <li>
-<p>Make sure Anaconda or Mambaforge is installed and the course materials are downloaded</p>
+<p>Make sure Anaconda or miniforge is installed and the course materials are downloaded</p>
 </li>
 <li>
-<p>Open the command line or python prompt (i.e., search "Terminal" on Mac Spotlight Seach; search "Anaconda prompt" or "mamba" on Windows start menu)</p>
+<p>Open the command line or python prompt (i.e., search "Terminal" on Mac Spotlight Seach; search "Anaconda prompt" or "Miniforge prompt" on Windows start menu)</p>
 </li>
 <li>
 <p>Navigate to folder containing the cloned / downloaded course materials. Use the <code>cd</code> command, for example:</p>
@@ -1086,7 +1086,7 @@
 </ul>
 <pre><code class="language-bash">conda env create -f environment.yml
 </code></pre>
-<p>or if you installed mamba</p>
+<p>or if you installed miniforge</p>
 <pre><code class="language-bash">mamba env create -f environment.yml
 </code></pre>
 <p>This will take some time depending on your Internet speed (&lt;15 minutes).</p>
@@ -1098,7 +1098,7 @@
 python -c &quot;import seaborn&quot;
 </code></pre>
 <h4 id="windows_1">Windows</h4>
-<p>In the command line (Anaconda/mamba prompt), type the following 2 commands:</p>
+<p>In the command line (Anaconda/miniforge prompt), type the following 2 commands:</p>
 <pre><code>conda activate course2026
 python -c &quot;import seaborn&quot;
 </code></pre>
@@ -1108,7 +1108,7 @@ python -c &quot;import seaborn&quot;
 <h3 id="windows_2">Windows</h3>
 <ul>
 <li>
-<p>Open Anaconda/mamba prompt from your Start menu</p>
+<p>Open Anaconda/miniforge prompt from your Start menu</p>
 </li>
 <li>
 <p>Type</p>
